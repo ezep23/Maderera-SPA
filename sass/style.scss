@@ -1,0 +1,13 @@
+@use 'variables';
+@use 'hero';
+@use 'footer';
+@use 'navbar';
+@use 'catalogo';
+
+/* Estilo global */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}

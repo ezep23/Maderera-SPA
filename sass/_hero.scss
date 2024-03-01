@@ -1,0 +1,39 @@
+@use 'variables';
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: variables.$colorSecundario;
+    
+    ._blanca{
+        padding: 12%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: variables.$colorSecundario;
+
+        &_textos{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    ._madera{
+        padding: 10%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: variables.$colorMadera;
+        color: variables.$colorSecundario;
+    }   
+    ._img_hero{
+        width: 300px;
+        height: 300px;
+    }
+
+    @media (min-width: 750px) {
+        
+    } 
+}

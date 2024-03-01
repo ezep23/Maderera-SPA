@@ -1,0 +1,85 @@
+@use 'variables';
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: variables.$colorMadera;
+}
+
+._logo{
+    max-width: 5rem;
+    padding-left: 5%;
+}
+
+._nav_list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+
+    & li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+._abrir_menu,
+._cerrar_menu{
+    display: none;
+}
+
+/* Media queries navbar */
+@media screen and (max-width: 550px){
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ._abrir_menu,
+    ._cerrar_menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer
+    }
+
+    ._abrir_menu{
+        color: #fff;
+    }
+
+    ._cerrar_menu{
+        color: #fff;
+    }
+
+    ._nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: variables.$colorMadera;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    ._nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    ._nav_list{
+        flex-direction: column;
+        align-items: end;
+
+        & li a{
+            color: #fff;
+        }
+    }
+}

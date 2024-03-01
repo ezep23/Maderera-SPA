@@ -1,0 +1,45 @@
+@use 'variables';
+
+
+/* PreFooter */
+
+.prefooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: variables.$colorMadera;
+    padding: 2% 0 12% 0;
+}
+
+.logo_footer{
+    color: red;
+    & img{
+        color:red;
+    }
+}
+
+._enlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    p{
+        padding: 10px 0 10px 0;
+    }
+}
+
+._contacto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    p{
+        padding: 10px 0 10px 0;
+    }
+}
+
+.footer_negro{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #000;
+    color: variables.$colorSecundario;
+}

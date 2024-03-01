@@ -1,0 +1,19 @@
+{
+  "name": "carpinteria-landingpage-sendrigd-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.1",
+    "dotenv": "^16.4.5"
+  }
+}
