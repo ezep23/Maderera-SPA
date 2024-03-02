@@ -48,6 +48,63 @@
 .hero ._madera ._texto h2 {
   font-size: 7rem;
 }
+
+/* Mediaqueries HERO */
+@media screen and (max-width: 850px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+  }
+  .hero ._blanca {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+  }
+  .hero ._blanca ._img_hero {
+    aspect-ratio: 16/9;
+    height: 50%;
+    width: 66%;
+    padding: 5%;
+  }
+  .hero ._blanca ._texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .hero ._blanca ._texto h2 {
+    font-size: 3rem;
+  }
+  .hero ._madera {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(126, 60, 40);
+    color: rgb(240, 240, 240);
+  }
+  .hero ._madera ._img_hero {
+    aspect-ratio: 16/9;
+    height: 50%;
+    width: 66%;
+    padding: 5%;
+  }
+  .hero ._madera ._texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  .hero ._madera ._texto h2 {
+    font-size: 3rem;
+  }
+}
 /* PreFooter */
 .prefooter {
   display: flex;
@@ -93,6 +150,60 @@
   color: rgb(240, 240, 240);
 }
 
+/* Footer mediaqueries */
+@media screen and (max-width: 550px) {
+  .prefooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(126, 60, 40);
+    padding: 7% 0 7% 0;
+  }
+  .prefooter .mapa {
+    width: 1%;
+    height: 1%;
+  }
+  .prefooter p {
+    padding: 10px 0 10px 0;
+    color: rgb(240, 240, 240);
+    font-size: 1.5rem;
+  }
+  .prefooter a {
+    color: rgb(240, 240, 240);
+  }
+  .prefooter a:hover {
+    color: #ffffff;
+  }
+  ._enlaces {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3% 0 5% 0;
+    align-items: center;
+  }
+  ._contacto {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3%;
+    align-items: center;
+  }
+  ._contacto ._redes {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(240, 240, 240);
+    font-size: 1.5rem;
+    gap: 21px;
+  }
+  .footer_negro {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    font-size: 0.4rem;
+    background-color: #000;
+    color: rgb(240, 240, 240);
+  }
+}
 header {
   display: flex;
   justify-content: space-around;

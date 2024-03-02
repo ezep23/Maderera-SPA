@@ -54,3 +54,71 @@
     background-color: #000;
     color: variables.$colorSecundario;
 }
+
+/* Footer mediaqueries */
+
+@media screen and (max-width: 550px){
+    
+    .prefooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: variables.$colorMadera;
+        padding: 7% 0 7% 0;
+
+        & .mapa{
+            width: 1%;
+            height: 1%;
+        }
+        
+
+        & p{
+            padding: 10px 0 10px 0;
+            color: variables.$colorSecundario;
+            font-size: variables.$tamañoLetraTitulo;
+        } 
+    
+        & a{
+            color: variables.$colorSecundario;
+    
+            &:hover{
+                color: #ffffff;
+            }
+        }
+    
+    }
+
+    ._enlaces{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 3% 0 5% 0;
+        align-items: center;
+    }
+    
+    ._contacto{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 3%;
+        align-items: center;
+    
+        & ._redes{
+            display: flex;
+            justify-content: space-between;
+            color: variables.$colorSecundario;
+            font-size: variables.$tamañoLetraTitulo;
+            gap: 21px;
+        } 
+    }
+
+    .footer_negro{
+        display: flex;
+        justify-content: space-around;
+        padding: 1%;
+        font-size: 0.4rem;
+        background-color: #000;
+        color: variables.$colorSecundario;
+    }
+
+} 
