@@ -4,6 +4,7 @@
   flex-direction: column;
   background-color: rgb(240, 240, 240);
 }
+
 .hero ._blanca {
   padding: 7%;
   display: flex;
@@ -12,20 +13,24 @@
   justify-content: space-between;
   background-color: rgb(240, 240, 240);
 }
+
 .hero ._blanca ._img_hero {
   aspect-ratio: 16/9;
   height: 50%;
   width: 50%;
   padding-left: 10%;
 }
+
 .hero ._blanca ._texto {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .hero ._blanca ._texto h2 {
   font-size: 7rem;
 }
+
 .hero ._madera {
   padding: 7%;
   display: flex;
@@ -34,34 +39,44 @@
   background-color: rgb(162, 145, 114);
   color: rgb(240, 240, 240);
 }
+
 .hero ._madera ._img_hero {
   aspect-ratio: 16/9;
   height: 50%;
   width: 50%;
   padding-right: 10%;
 }
+
 .hero ._madera ._texto {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+
 .hero ._madera ._texto h2 {
   font-size: 7rem;
 }
+
 /* PreFooter */
 .prefooter {
   display: flex;
   justify-content: space-around;
   background-color: rgb(162, 145, 114);
-  padding: 3% 0 3% 0;
+  padding: 4% 0 3% 0;
 }
+
 .prefooter p {
   padding: 10px 0 10px 0;
   color: rgb(240, 240, 240);
   font-size: 1.5rem;
 }
+
 .prefooter a {
   color: rgb(240, 240, 240);
+}
+
+.prefooter a:hover {
+  color: #ffffff;
 }
 
 ._enlaces {
@@ -75,6 +90,7 @@
   justify-content: space-between;
   flex-direction: column;
 }
+
 ._contacto ._redes {
   display: flex;
   justify-content: space-between;
@@ -110,10 +126,15 @@ header {
   display: flex;
   gap: 1rem;
 }
+
 ._nav_list li a {
   text-decoration: none;
-  color: #ffffff;
+  color: rgb(240, 240, 240);
   font-size: 1.2rem;
+}
+
+._nav_list li a:hover {
+  color: #ffffff;
 }
 
 ._abrir_menu,
@@ -172,21 +193,25 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(240, 240, 240);
-  padding: 8%;
+  background-image: url(../img/annie-spratt-cFwJUOUlOdc-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6%;
 }
 
 ._formulario {
   display: flex;
   flex-direction: column;
-  background-color: rgb(15, 179, 255);
+  background-color: rgb(240, 240, 240);
   border: solid 2px #000;
-  padding: 8%;
+  padding: 10%;
 }
+
 ._formulario h3 {
-  padding: 0 0 25px 0;
-  color: rgb(240, 240, 240);
+  padding: 0 0 30px 0;
+  color: rgb(162, 145, 114);
 }
+
 ._formulario form {
   display: flex;
   flex-direction: column;
@@ -201,6 +226,6 @@ header {
   margin: 0;
   font-family: "Poppins";
   box-sizing: border-box;
-}
+} 
 
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     background-color: variables.$colorMadera;
-    padding: 3% 0 3% 0;
+    padding: 4% 0 3% 0;
     
     & p{
         padding: 10px 0 10px 0;
@@ -17,6 +17,10 @@
 
     & a{
         color: variables.$colorSecundario;
+
+        &:hover{
+            color: #ffffff;
+        }
     }
 
 
