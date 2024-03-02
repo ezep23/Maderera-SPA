@@ -5,28 +5,48 @@
   background-color: rgb(240, 240, 240);
 }
 .hero ._blanca {
-  padding: 12%;
+  padding: 7%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(240, 240, 240);
 }
-.hero ._blanca_textos {
+.hero ._blanca ._img_hero {
+  aspect-ratio: 16/9;
+  height: 50%;
+  width: 50%;
+  padding-left: 10%;
+}
+.hero ._blanca ._texto {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
+.hero ._blanca ._texto h2 {
+  font-size: 7rem;
+}
 .hero ._madera {
-  padding: 10%;
+  padding: 7%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   background-color: rgb(162, 145, 114);
   color: rgb(240, 240, 240);
 }
-.hero ._img_hero {
-  width: 300px;
-  height: 300px;
+.hero ._madera ._img_hero {
+  aspect-ratio: 16/9;
+  height: 50%;
+  width: 50%;
+  padding-right: 10%;
+}
+.hero ._madera ._texto {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.hero ._madera ._texto h2 {
+  font-size: 7rem;
 }
 /* PreFooter */
 .prefooter {
@@ -81,7 +101,7 @@ header {
 ._logo {
   max-width: 5rem;
   padding-left: 5%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: rgb(240, 240, 240);
 }
 
@@ -159,11 +179,13 @@ header {
 ._formulario {
   display: flex;
   flex-direction: column;
-  background-color: rgb(162, 145, 114);
-  padding: 4%;
+  background-color: rgb(15, 179, 255);
+  border: solid 2px #000;
+  padding: 8%;
 }
 ._formulario h3 {
   padding: 0 0 25px 0;
+  color: rgb(240, 240, 240);
 }
 ._formulario form {
   display: flex;

@@ -7,33 +7,63 @@
     background-color: variables.$colorSecundario;
     
     ._blanca{
-        padding: 12%;
+        padding: 7%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         background-color: variables.$colorSecundario;
-
-        &_textos{
-            display: flex;
-            justify-content: space-between;
+        
+        & ._img_hero{
+            aspect-ratio: 16 / 9;
+            height: 50%;
+            width: 50%;
+            padding-left: 10%;
         }
+
+        & ._texto{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            & h2{
+                font-size: 7rem;
+
+            }
+        }
+
     }
 
+
     ._madera{
-        padding: 10%;
+        padding: 7%;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         background-color: variables.$colorMadera;
         color: variables.$colorSecundario;
+
+        & ._img_hero{
+            aspect-ratio: 16 / 9;
+            height: 50%;
+            width: 50%;
+            padding-right: 10%;
+        }
+
+        & ._texto{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            & h2{
+                font-size: 7rem;
+            }
+        }
     }   
-    ._img_hero{
-        width: 300px;
-        height: 300px;
-    }
 
     @media (min-width: 750px) {
         
-    } 
-}
+    }
+
+} 
+
