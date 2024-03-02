@@ -11,6 +11,8 @@ header{
 ._logo{
     max-width: 5rem;
     padding-left: 5%;
+    font-size: 2.5rem;
+    color: variables.$colorSecundario;
 }
 
 ._nav_list{
@@ -21,6 +23,7 @@ header{
     & li a{
         text-decoration: none;
         color: #ffffff;
+        font-size: 1.2rem;
     }
 }
 

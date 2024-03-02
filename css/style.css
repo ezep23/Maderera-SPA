@@ -33,14 +33,15 @@
   display: flex;
   justify-content: space-around;
   background-color: rgb(162, 145, 114);
-  padding: 2% 0 12% 0;
+  padding: 3% 0 3% 0;
 }
-
-.logo_footer {
-  color: red;
+.prefooter p {
+  padding: 10px 0 10px 0;
+  color: rgb(240, 240, 240);
+  font-size: 1.5rem;
 }
-.logo_footer img {
-  color: red;
+.prefooter a {
+  color: rgb(240, 240, 240);
 }
 
 ._enlaces {
@@ -48,17 +49,17 @@
   justify-content: space-between;
   flex-direction: column;
 }
-._enlaces p {
-  padding: 10px 0 10px 0;
-}
 
 ._contacto {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
-._contacto p {
-  padding: 10px 0 10px 0;
+._contacto ._redes {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(240, 240, 240);
+  font-size: 1.5rem;
 }
 
 .footer_negro {
@@ -80,6 +81,8 @@ header {
 ._logo {
   max-width: 5rem;
   padding-left: 5%;
+  font-size: 2.5rem;
+  color: rgb(240, 240, 240);
 }
 
 ._nav_list {
@@ -90,6 +93,7 @@ header {
 ._nav_list li a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 1.2rem;
 }
 
 ._abrir_menu,
