@@ -11,8 +11,20 @@
     font-family: "Poppins";
     box-sizing: border-box;
 }
+/* Boton de whatsapp */
 
-/* Mediaquerie */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    background-color: #008f39; 
+    color: variables.$colorSecundario; 
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1000; 
+}
 
 
 

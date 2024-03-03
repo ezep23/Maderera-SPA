@@ -339,6 +339,18 @@ header {
   box-sizing: border-box;
 }
 
-/* Mediaquerie */
+/* Boton de whatsapp */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #008f39;
+  color: rgb(240, 240, 240);
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  z-index: 1000;
+}
 
 /*# sourceMappingURL=style.css.map */
