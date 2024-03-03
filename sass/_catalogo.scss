@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     background-color: variables.$colorSecundario;
-    border: solid 2px #000;
+    border: solid 4px variables.$colorMadera;
     padding: 10%;
 
     & h3{

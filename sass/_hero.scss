@@ -128,8 +128,25 @@
                 }
             }
         }   
-     }
+    }
 }
-    
+
+@media screen and (max-width: 550px) {
+    ._blanca ._texto p{
+        font-size: 0.5rem;
+    } 
+
+    ._blanca ._texto h2{
+        font-size: 1.5rem;
+    } 
+
+    ._madera ._texto p{
+        font-size: 0.5rem;
+    }
+
+    ._madera ._texto h2{
+        font-size: 1.5rem;
+    } 
+}
     
     

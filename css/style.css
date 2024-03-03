@@ -105,6 +105,20 @@
     font-size: 3rem;
   }
 }
+@media screen and (max-width: 550px) {
+  ._blanca ._texto p {
+    font-size: 0.5rem;
+  }
+  ._blanca ._texto h2 {
+    font-size: 1.5rem;
+  }
+  ._madera ._texto p {
+    font-size: 0.5rem;
+  }
+  ._madera ._texto h2 {
+    font-size: 1.5rem;
+  }
+}
 /* PreFooter */
 .prefooter {
   display: flex;
@@ -128,6 +142,9 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+._enlaces a {
+  text-decoration: none;
 }
 
 ._contacto {
@@ -299,7 +316,7 @@ header {
   display: flex;
   flex-direction: column;
   background-color: rgb(240, 240, 240);
-  border: solid 2px #000;
+  border: solid 4px rgb(126, 60, 40);
   padding: 10%;
 }
 ._formulario h3 {
@@ -321,5 +338,7 @@ header {
   font-family: "Poppins";
   box-sizing: border-box;
 }
+
+/* Mediaquerie */
 
 /*# sourceMappingURL=style.css.map */

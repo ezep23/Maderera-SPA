@@ -30,7 +30,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
+    & a{
+        text-decoration: none;
+    }
 }
 
 ._contacto{
