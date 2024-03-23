@@ -4,11 +4,13 @@
     <!-- metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'none'">
     <!-- SEO -->
     <meta name="keywords" content="Muebles, Maderera, Muebles en Pilar, Comprar muebles, Muebles baratos">
     <meta name="description" content="Nos dedicamos a la fabricación y venta de muebles utilizando maderas fuertes y duraderas">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- ponerlooooo-->
     <!-- Boostrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- Link css -->
@@ -18,20 +20,20 @@
 <body>
     <!-- Navbar responsive -->
     <header>
-        <a class="_logo"><i class="bi bi-hammer"></i></a>
-        <button id="abrir" class="_abrir_menu"><i class="bi bi-list"></i></button>
+        <a tabindex="0" aria-label="Logo hacia inicio" href="#seccion1" class="_logo"><i class="bi bi-hammer"></i></a>
+        <button tabindex="0" aria-label="Abrir menú despegable" id="abrir" class="_abrir_menu"><i class="bi bi-list"></i></button>
         <nav class="_nav" id="nav">
-            <button class="_cerrar_menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <button tabindex="0" aria-label="Cerrar menú despegable" class="_cerrar_menu" id="cerrar"><i class="bi bi-x"></i></button>
             <ul class="_nav_list">
-                <li><a href="#seccion1">PRODUCTOS</a></li>
-                <li><a href="#seccion2">MADERAS</a></li>
-                <li><a href="#seccion3">TRABAJO</a></li>
-                <li><a href="#seccion4">CONTACTO</a></li>
+                <li><a tabindex="0" aria-label="Ir a productos" href="#seccion1">PRODUCTOS</a></li>
+                <li><a tabindex="0" aria-label="Ver las maderas" href="#seccion2">MADERAS</a></li>
+                <li><a tabindex="0" aria-label="Ver el trabajo" href="#seccion3">TRABAJO</a></li>
+                <li><a tabindex="0" aria-label="Ir a contacto" href="#seccion4">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
     <!-- Boton Whatsapp-->
-    <a href="https://wa.me/tunumero" target="_blank" class="whatsapp-btn"><i class="bi bi-whatsapp"></i></a>
+    <a tabindex="0" aria-label="Enviar mensaje por whatsapp" href="https://wa.me/tunumero" target="_blank" class="whatsapp-btn"><i class="bi bi-whatsapp"></i></a>
     <!-- Seccion 1 -->
     <section class="hero" id="seccion1">
         <div class="_blanca">
@@ -67,7 +69,7 @@
                 <br>
                 <input type="email" id="mail" aria-label="user_mail" placeholder="Correo electrónico" />
             </form>
-            <button type="submit"> Enviar </button>
+            <button tabindex="0" aria-label="Enviar correo" type="submit"> Enviar </button>
         </div>
     </section>
     <!-- PreFooter -->
@@ -77,22 +79,22 @@
         </div>
         <hr>
         <div class="_enlaces">
-            <p href="">ENLACES</p>
-            <a href="#seccion2">Maderas</a>
-            <a href="#seccion1">Productos</a>
-            <a href="#seccion5">Catalogo</a>
-            <a href="#seccion4">Contacto</a>
-            <a href="#seccion4">Ubicación</a>
+            <p>ENLACES</p>
+            <a tabindex="0" aria-label="Volver a maderas" href="#seccion2">Maderas</a>
+            <a tabindex="0" aria-label="Volver a productos" href="#seccion1">Productos</a>
+            <a tabindex="0" aria-label="Volver al catalogo" href="#seccion5">Catalogo</a>
+            <a tabindex="0" aria-label="Volver a contactos" href="#seccion4">Contacto</a>
+            <a tabindex="0" aria-label="Ir a la ubicación" href="#seccion4">Ubicación</a>
         </div>
         <hr>
         <div class="_contacto">
             <p>CONTACTO</p>
-            <a>11 3523 3528</a>
-            <a>Correo Electronico</a>
+            <p>11 3523 3528</p>
+            <p>Correo Electronico</p>
             <div class="_redes">
-                <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
-                <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
-                <a href="https://youtube.com"><i class="bi bi-youtube"></i></a>
+                <a tabindex="0" aria-label="Ir al instagram" href="https://instagram.com"><i class="bi bi-instagram"></i></a>
+                <a tabindex="0" aria-label="Ir al facebook" href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+                <a tabindex="0" aria-label="Ir a youtube" href="https://youtube.com"><i class="bi bi-youtube"></i></a>
             </div>
         </div>
     </section>

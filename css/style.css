@@ -13,7 +13,7 @@
   background-color: rgb(240, 240, 240);
 }
 .hero ._blanca ._img_hero {
-  aspect-ratio: 16/9;
+  aspect-ratio: 4/2;
   height: 50%;
   width: 50%;
   padding-left: 10%;
@@ -35,7 +35,7 @@
   color: rgb(240, 240, 240);
 }
 .hero ._madera ._img_hero {
-  aspect-ratio: 16/9;
+  aspect-ratio: 2.5/2.5;
   height: 50%;
   width: 50%;
   padding-right: 10%;
@@ -65,7 +65,7 @@
     background-color: rgb(240, 240, 240);
   }
   .hero ._blanca ._img_hero {
-    aspect-ratio: 16/9;
+    aspect-ratio: 3/2;
     height: 50%;
     width: 66%;
     padding: 5%;
@@ -89,7 +89,7 @@
     color: rgb(240, 240, 240);
   }
   .hero ._madera ._img_hero {
-    aspect-ratio: 16/9;
+    aspect-ratio: 2.5/2.5;
     height: 50%;
     width: 66%;
     padding: 5%;
