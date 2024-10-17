@@ -1,5 +1,5 @@
 {
-  "name": "carpinteria-landingpage-sendrigd-",
+  "name": "ebanisteria",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.71.1"
+    "sass": "1.71.1"
   },
   "dependencies": {
-    "@sendgrid/mail": "^8.1.1",
-    "dotenv": "^16.4.5"
+    "@sendgrid/mail": "8.1.1",
+    "dotenv": "16.4.5"
   }
 }
